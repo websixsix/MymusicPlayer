@@ -1,5 +1,5 @@
 var express = require('express');
-const Music = require('../public/javascripts/test');
+const Music = require('../public/javascripts/music');
 const formidable = require('formidable');
 const path = require('path');
 const fs = require('fs');

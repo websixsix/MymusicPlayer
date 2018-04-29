@@ -1,5 +1,5 @@
 var express = require('express');
-const Music = require('../public/javascripts/test');
+const Music = require('../public/javascripts/music');
 var router = express.Router();
 
 /* GET users listing. */
