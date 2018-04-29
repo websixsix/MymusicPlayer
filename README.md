@@ -1,7 +1,7 @@
 # MymusicPlayer
 Vue,Vue-router,Node.js,Express,Es6
 <h1>这是一款由vue和node.js搭建的简单网页播放器</h1>
-    （也借鉴了一部分网上的例子）<br>
+<br>
 <h3>客户端是基于Vue构建的，放于client文件夹中</h3>
 <h3>服务端是基于express构建的，上传文件的表单依赖于formidable插件</h3>
 <h1>实现的功能：</h1>
