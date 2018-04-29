@@ -23,12 +23,10 @@
 <script>
     export default {
         name: "Mymusic",
-      computed:{
-          otherNumber: function () {
-            return document.getElementsByClassName('otherBuilt')[0].children.length;
-          },
-          meNumber:function () {
-          return document.getElementsByClassName('meBuilt')[0].children.length;
+      data(){
+          return {
+            meNumber: 1,
+            otherNumber: 0
           }
       }
     }
