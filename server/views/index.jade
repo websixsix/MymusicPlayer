@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  p
+    a(class="btn btn-default" href="/add") add
+  table(class="table table-bordered")
+    thead
+      tr
+        th #
+        th name
+        th artist
+        th duration
+        th music
+        th poster
+        th lyric
+        th actions
+    tbody
+      each list in temp
+        tr
+          td #{list.id}
+          td #{list.name}
+          td #{list.artist}
+          td #{list.duration}
+          td #{list.music}
+          td #{list.poster}
+          td #{list.lyric}
+          th
+            a.btn(class="btn btn-default" href="/edit/#{list.id}") edit
+            a.btn(class="btn btn-default" href="delete/#{list.id}") delete
