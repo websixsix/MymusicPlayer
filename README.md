@@ -27,5 +27,15 @@ Vue,Vue-router,Node.js,Express,Es6
 <li>6.在网址上输入127.0.0.1:8080 即可打开客户端主页面<br>
     在网址上输入127.0.0.1:3000 即可打开服务端主页面（api接口在 127.0.0.1:3000/api)</li><br>
 </ul>
-
+<h1>项目效果图</h1>
+<h4>客户端主页面</h4>
+<img src="./server/public/images/主页面.png" alt="photo">
+<h4>歌曲列表</h4>
+<img src="./server/public/images/歌曲列表.png" alt="photo">
+<h4>播放界面</h4>
+<img src="./server/public/images/播放界面.png" alt="photo">
+<h4>服务端主页面</h4>
+<img src="./server/public/images/服务端主页面.png" alt="photo">
+<h4>添加界面</h4>
+<img src="./server/public/images/添加界面.png" alt="photo">
 End
