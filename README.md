@@ -21,9 +21,9 @@ Vue,Vue-router,Node.js,Express,Es6
 <ul>
 <li>1.clone到本地文件夹</li><br>
 <li>2.shift+鼠标右键 在server文件夹内打开命令行窗口</li><br>
-<li>3.输入npm run serve 即可运行服务端</li><br>
+<li>3.输入npm install 后 npm run serve 即可运行服务端</li><br>
 <li>4.shift+鼠标右键 在client文件夹内打开的命令行串口</li><br>
-<li>5.输入npm run client 即可运行客户端</li><br>
+<li>5.输入npm install 后 npm run client 即可运行客户端</li><br>
 <li>6.在网址上输入127.0.0.1:8080 即可打开客户端主页面<br>
     在网址上输入127.0.0.1:3000 即可打开服务端主页面（api接口在 127.0.0.1:3000/api)</li><br>
 </ul>
